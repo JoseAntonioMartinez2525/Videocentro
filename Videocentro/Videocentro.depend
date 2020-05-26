@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1590104047 source:c:\users\usuario\desktop\prog1\u6\videocentro\pelicula.cpp
+	"Pelicula.h"
+	<iostream>
+
+1590103420 c:\users\usuario\desktop\prog1\u6\videocentro\pelicula.h
+	<Persona.h>
+
+1590105522 c:\users\usuario\desktop\prog1\u6\videocentro\\persona.h
+
+1590102754 source:c:\users\usuario\desktop\prog1\u6\videocentro\persona.cpp
+	<iostream>
+	"Persona.h"
+	<cstring>
+
+1590105522 c:\users\usuario\desktop\prog1\u6\videocentro\persona.h
+
+1590450798 source:c:\users\usuario\desktop\prog1\u6\videocentro\prestamo.cpp
+	"Prestamo.h"
+	<iostream.h>
+	<cstring>
+	<string>
+
+1590106225 c:\users\usuario\desktop\prog1\u6\videocentro\prestamo.h
+
+1590451695 source:c:\users\usuario\desktop\prog1\u6\videocentro\main.cpp
+	<iostream>
+	<math.h>
+	<cstring>
+	<string>
+	<cstdlib>
+	<stdio.h>
+	<string.h>
+	<sstream>
+	<time.h>
+	"Persona.h"
+	"Pelicula.h"
+	"Prestamo.h"
+

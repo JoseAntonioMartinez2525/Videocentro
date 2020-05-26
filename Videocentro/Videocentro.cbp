@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Videocentro" />
+		<Option pch_mode="2" />
+		<Option compiler="bcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Videocentro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="bcc" />
+				<Compiler>
+					<Add option="-v" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-v" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Videocentro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="bcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-w" />
+			<Add option="-x" />
+		</Compiler>
+		<Linker>
+			<Add library="cw32mt.lib" />
+			<Add library="import32.lib" />
+		</Linker>
+		<Unit filename="Pelicula.cpp" />
+		<Unit filename="Pelicula.h" />
+		<Unit filename="Persona.cpp" />
+		<Unit filename="Persona.h" />
+		<Unit filename="Prestamo.cpp" />
+		<Unit filename="Prestamo.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
